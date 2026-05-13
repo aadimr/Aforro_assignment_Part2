@@ -8,18 +8,10 @@ https://jsonplaceholder.typicode.com/users
 
 ---
 
-## Live Demo
-
-https://<your-vercel-link>
-
----
-
 ## Tech Stack
 
 - React.js
 - Vite
-- Axios
-- CSS / Tailwind CSS
 
 ---
 
@@ -28,13 +20,13 @@ https://<your-vercel-link>
 ## 1. Clone the repository
 
 ```bash
-git clone <your-github-repo-link>
+git clone https://github.com/aadimr/Aforro_assignment_Part2.git
 ```
 
 ## 2. Navigate to the project directory
 
 ```bash
-cd <project-folder-name>
+cd Aforro_assignment_Part2
 ```
 
 ## 3. Install dependencies
@@ -67,11 +59,13 @@ npm run dev
 
 # Assumptions & Decisions Made
 
-- Axios was used for API fetching.
-- Client-side filtering and sorting were implemented.
-- Search functionality works dynamically while typing.
-- Static dropdown filtering was implemented based on available cities from API data.
-- Basic responsive behavior was added for better usability.
+- Fetch API was used for data fetching.
+- Client-side searching, filtering, and sorting were implemented for better performance and simplicity.
+- Sorting functionality was implemented specifically for the Name column in both ascending and descending order.
+- Search functionality updates results dynamically while typing.
+- City filtering options were generated from the available API data.
+- The UI design was kept clean and minimal for better readability and user experience.
+- Basic responsive behavior was added for improved usability across different screen sizes.
 
 ---
 
