@@ -1,16 +1,89 @@
-# React + Vite
+# React API Integration & Data Table Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based data table application that fetches user data from a public API and displays it in a searchable, sortable, and filterable table.
 
-Currently, two official plugins are available:
+## Public API Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://jsonplaceholder.typicode.com/users
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
 
-## Expanding the ESLint configuration
+https://<your-vercel-link>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React.js
+- Vite
+- Axios
+- CSS / Tailwind CSS
+
+---
+
+# Project Setup Steps
+
+## 1. Clone the repository
+
+```bash
+git clone <your-github-repo-link>
+```
+
+## 2. Navigate to the project directory
+
+```bash
+cd <project-folder-name>
+```
+
+## 3. Install dependencies
+
+```bash
+npm install
+```
+
+## 4. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+# Features Implemented
+
+- Fetch user data from public API
+- Display data in table format
+- Search by name or email
+- Name sorting (A–Z and Z–A)
+- City-based filtering
+- Loading state handling
+- Error state handling
+- Reusable React components
+- Clean and structured UI
+
+---
+
+# Assumptions & Decisions Made
+
+- Axios was used for API fetching.
+- Client-side filtering and sorting were implemented.
+- Search functionality works dynamically while typing.
+- Static dropdown filtering was implemented based on available cities from API data.
+- Basic responsive behavior was added for better usability.
+
+---
+
+# Table Columns
+
+- Name
+- Email
+- Company Name
+- City
+
+---
+
+# Author
+
+Aditya Shaw
