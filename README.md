@@ -65,7 +65,6 @@ npm run dev
 - Search functionality updates results dynamically while typing.
 - City filtering options were generated from the available API data.
 - The UI design was kept clean and minimal for better readability and user experience.
-- Basic responsive behavior was added for improved usability across different screen sizes.
 
 ---
 
